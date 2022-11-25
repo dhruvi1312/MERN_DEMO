@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+.login-box{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: xxx-large !important;
+  font-weight: bold !important;
+}
+.list-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ml10{
+  margin-left: 10px !important;
+}
+.modal-style {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  border: 1px solid #000;
+  border-radius: 15px;
+  box-shadow: 24;
+  padding: 16px 32px 24px;
+  background: white;
+  margin: 10px
+};
